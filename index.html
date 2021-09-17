@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Deepak Portfolio website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+	    <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Deepak Gupta</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">web-developer</p>
+            <img src="images/introduction.jpg" alt="a picture of Deepak Gupta" class="intro__img">
+        </section>
+
+        <!-- my services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I DO</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design</h3>
+                    <p>I value simple content structure, clean design patterns, and thoughtful interactions. I believe that the design of the website should be as simple and effective as possible and even a novice should be able to navigate the website easily without any problem.</p>
+                </div>  <!-- service -->
+
+                <div class="service">
+                    <h3>Tools</h3>
+                    <p><ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Sass</li>
+                        <li>Bootstrap</li>
+                        <li>Linux</li>
+                        <li>Git</li>
+                        <li>Github</li>
+                    </ul></p>
+                </div>  <!-- service -->
+
+                <div class="service">
+                    <h3>Development</h3>
+                    <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser. I build Responsive website for an optimal user experience, having a fast performance and better SEO rankings.</p>
+                </div>  <!-- service -->
+            </div> <!-- services -->
+
+            <a href="#work" class="btn">My work</a>
+        </section>
+
+        <!-- about me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Hii! I am Deepak Gupta. I am Web Developer.</p>
+
+            <div class="about-me__body">
+                <p>Hii! I am Deepak Gupta and I am studying in DY Patil Institute of Engineering, Mnagement and Research pursuing my BE degree in Computer Branch.
+                    I am front-end developer, Competitive Programmer and Cyber Security Enthusiast.
+                </p>
+                <p>I don’t like to define myself by the work I’ve done. I define myself by the work I want to do. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting things that matter.</p>
+                <p>My abundant energy fuels me in the pursuit of many interests, hobbies, areas of study and artistic endeavors. I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease.</p>
+            </div>
+
+            <img src="images/about_me.jpg" alt="picture of deepak gupta" class="about-me__img">
+        </section>
+
+        <!-- my work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                <!-- portfolio item 01-->
+                <a href="#" class="portfolio-item">
+                    <img src="images/portfolio.png" alt="" class="portfolio__img">
+                </a>
+
+                <!-- portfolio item 02-->
+                <a href="#" class="portfolio-item">
+                    <img src="images/frisbee.JPG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- portfolio item 03-->
+                <a href="#" class="portfolio-item">
+                    <img src="images/alien_invasion.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <a href="mailto:hello@deepak.dev" class="footer-link">hello@deepak.dev</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Soaring-Condor">
+                        <i class="fab fa-github"></i>
+                    </a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://linkedin.com/in/deepak-gupta-68bb2321a">
+                        <i class="fab fa-linkedin"></i>
+                    </a></li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
